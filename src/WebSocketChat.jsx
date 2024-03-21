@@ -25,7 +25,8 @@ const WebSocketChat = () => {
   // Effect hook to establish WebSocket connection
   useEffect(() => {
     // Create a WebSocket connection
-    const ws = new WebSocket('wss://beneficial-southern-rule.glitch.me');
+    const ws = new WebSocket('ws://localhost:8080');
+    //const ws = new WebSocket('wss://beneficial-southern-rule.glitch.me');
 
     // Event listener for when the connection is established
     ws.onopen = () => {
