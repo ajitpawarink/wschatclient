@@ -2,7 +2,10 @@ import WebSocketChat from './WebSocketChat'; // Assuming your main component is 
 
 function App() {
   return (
-    <WebSocketChat/>
+    <>
+      <WebSocketChat/>
+      <div>NEW CODE CHANGE HERE.<div/>
+    </>
   );
 }
 
